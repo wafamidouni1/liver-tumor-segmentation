@@ -268,7 +268,7 @@ See also `CITATION.cff` for a machine-readable citation entry.
 - **TotalSegmentator** — Wasserthal et al., *Robust Segmentation of 104 Anatomical Structures in CT Images*, Radiology AI 2023
 - **3D Slicer** community
 - **MediaPipe** — Google Research
-- Master's supervisors and the Health AI programme at Université Bourgogne Europe
+- Master's supervisors in ENSIT tunisia
 
 ---
 
