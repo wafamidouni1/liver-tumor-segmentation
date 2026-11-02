@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+type: software
+title: "AI Liver and Hepatic Tumor Segmentation for Surgical Planning"
+abstract: >
+  SwinUNETR-based automatic 3D segmentation of liver and hepatic tumors on CT,
+  combined with Couinaud segment labeling, Future Liver Remnant (FLR) estimation,
+  3D Slicer integration via MONAILabel, and MediaPipe-based hand gesture control
+  for touchless surgical planning.
+authors:
+  - family-names: "Midouni"
+    given-names: "Wafa"
+   
+version: "1.0.0"
+date-released: "2026-10-30"
+license: MIT
+repository-code: "https://github.com/wafamidouni1/liver-tumor-segmentation"
+keywords:
+  - medical imaging
+  - deep learning
+  - liver segmentation
+  - hepatic tumor
+  - CT
+  - SwinUNETR
+  - MONAI
+  - 3D Slicer
+  - surgical planning
+  - Future Liver Remnant
+  - FLR
+  - MediaPipe
+  - hand gesture control
+preferred-citation:
+  type: thesis
+  title: "AI-Assisted Liver and Hepatic Tumor Segmentation for Preoperative Surgical Planning"
+  authors:
+    - family-names: "Midouni"
+      given-names: "Wafa"
+  year: 2026
+  thesis-type: "Master's thesis"
+  institution:
+    name: "engeneering school of Tunisia"
+    city: "Tunis"
+    country: TN

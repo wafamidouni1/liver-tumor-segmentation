@@ -1,0 +1,33 @@
+# Core deep learning
+torch>=2.0.0,<2.11.0
+torchvision
+monai==1.5.2
+
+# Serving (optional — for interactive annotation with 3D Slicer)
+monailabel==0.8.5
+
+# Medical imaging I/O
+nibabel>=5.0.0
+SimpleITK>=2.3.0
+pydicom==2.4.4
+
+# Numerical
+numpy==1.26.4
+scipy>=1.11.0
+scikit-learn>=1.3.0
+scikit-image>=0.22.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Couinaud segments
+totalsegmentator>=2.0.0
+
+# Hand gesture control (separate env recommended)
+# mediapipe==0.10.13
+# opencv-python>=4.8.0
+
+# Utilities
+tqdm
+pyyaml

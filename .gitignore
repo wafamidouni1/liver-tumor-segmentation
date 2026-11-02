@@ -1,0 +1,112 @@
+# ====================================
+# Model weights (hosted on Hugging Face)
+# ====================================
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# ====================================
+# Medical imaging data (NEVER commit)
+# ====================================
+*.nii
+*.nii.gz
+*.dcm
+*.dicom
+*.nrrd
+*.mha
+*.mhd
+*.img
+*.hdr
+
+# ====================================
+# Datasets
+# ====================================
+data/
+datasets/
+lits/
+lits_b1_ready/
+lits_test_ready/
+Training_Batch*/
+Training_Batch*.zip
+datastore/
+
+# ====================================
+# 3D Slicer / scenes
+# ====================================
+*.mrml
+*.mrb
+*.seg.nrrd
+
+# ====================================
+# Logs & runtime
+# ====================================
+*.log
+logs/
+runs/
+wandb/
+lightning_logs/
+checkpoints/
+gesture_commands.json
+
+# ====================================
+# Python
+# ====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ====================================
+# Virtual environments
+# ====================================
+.venv/
+venv/
+env/
+gesture_env/
+totalseg_env/
+monailabel_env/
+
+# ====================================
+# Jupyter
+# ====================================
+.ipynb_checkpoints/
+
+# ====================================
+# IDE
+# ====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ====================================
+# OS
+# ====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ====================================
+# Secrets
+# ====================================
+.env
+.env.local
+*.key
+credentials.json
+
+# ====================================
+# MediaPipe models (download separately)
+# ====================================
+hand_landmarker.task
+
+# ====================================
+# Outputs
+# ====================================
+results/
+output/
+predictions/
+masks/
